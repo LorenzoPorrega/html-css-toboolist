@@ -66,11 +66,17 @@ button{
 
 hr{
     border: 0px;
-    height: 3px;
+    height: 2px;
     background-color: #F5F5F5;
 }
 
-#task-section{
+#tasks-section{
     padding-top: 40px;
     padding-bottom: 40px;
+}
+
+.taskgroup{
+    font-size: x-large;
+    font-weight: 700;
+    vertical-align: middle;
 }
