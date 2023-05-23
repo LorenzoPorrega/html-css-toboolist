@@ -18,6 +18,7 @@ body{
     background-color: white;
     display: inline-block;
     vertical-align: middle;
+    color: #021732;
     line-height: 80px;
     font-size: 35px;
     font-weight: 600;
@@ -75,8 +76,35 @@ hr{
     padding-bottom: 40px;
 }
 
-.taskgroup{
+.tasks-group{
     font-size: x-large;
     font-weight: 700;
     vertical-align: middle;
+    padding-bottom: 30px;
+}
+
+.task{
+    font-size: large;
+    font-weight: 550;
+    padding-left: 7px;
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+.check{
+    display: inline-block;
+    font-size: small;
+    height: 20px;
+    width: 20px;
+    border: 1px solid green;
+    border-radius: 50%;
+    color: green;
+    padding-left: 3px;
+    margin-right: 10px;
+}
+
+.false{
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
 }
